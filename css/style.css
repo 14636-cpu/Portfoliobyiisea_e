@@ -878,3 +878,68 @@ flex-wrap:wrap;
 }
 
 }
+/*==============================
+      ABOUT MEDICAL CARD
+==============================*/
+
+.medical-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+gap:20px;
+
+margin-top:40px;
+
+}
+
+.medical-card{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:var(--shadow);
+
+transition:.35s;
+
+border-top:5px solid var(--primary);
+
+}
+
+.medical-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.medical-card i{
+
+font-size:45px;
+
+color:var(--primary);
+
+margin-bottom:15px;
+
+}
+
+.medical-card h3{
+
+color:var(--dark);
+
+margin-bottom:10px;
+
+}
+
+.medical-card p{
+
+color:#666;
+
+line-height:1.8;
+
+}
